@@ -1,0 +1,42 @@
+---
+label: Post
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Title
+  description: The title of the post
+  config:
+    required: true
+- type: text
+  name: subtitle
+  label: Subtitle
+  description: The text displayed just below the title
+- type: file
+  name: content_img_path
+  label: Image
+  description: The image displayed in the single post
+- type: file
+  name: thumb_img_path
+  label: Alternate Image
+  description: The image displayed in any thumbnails for the post
+- type: text
+  name: excerpt
+  label: Excerpt
+  description: The excerpt of the post displayed in the blog feed and in meta data
+- type: datetime
+  name: date
+  label: Date
+  config:
+    required: true
+- type: text
+  name: template
+  label: Template
+  hidden: true
+  default: post
+  config:
+    required: true
+pages:
+- src/pages/posts/magna.md
+- src/pages/posts/sed.md
+- src/pages/posts/tellus.md

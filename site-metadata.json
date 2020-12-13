@@ -1,0 +1,88 @@
+{
+    "title": "Stackbit Vanilla Theme",
+    "description": "A vanilla theme for Stackbit",
+    "header": {
+        "type": "header",
+        "template": "header",
+        "title": "Stackbit Vanilla",
+        "has_nav": true,
+        "nav_links": [
+            {
+                "type": "action",
+                "template": "action",
+                "label": "Home",
+                "url": "/"
+            },
+            {
+                "type": "action",
+                "template": "action",
+                "label": "Generic",
+                "url": "/generic/"
+            },
+            {
+                "type": "action",
+                "template": "action",
+                "label": "Elements",
+                "url": "/elements/"
+            },
+            {
+                "type": "action",
+                "template": "action",
+                "label": "Ipsum",
+                "url": "/ipsum/"
+            }
+        ]
+    },
+    "footer": {
+        "type": "footer",
+        "template": "footer",
+        "content": "&copy; All rights reserved.",
+        "links": [
+            {
+                "type": "action",
+                "template": "action",
+                "label": "Made with Stackbit",
+                "url": "https://www.stackbit.com",
+                "new_window": true
+            }
+        ],
+        "has_social": true,
+        "social_links": [
+            {
+                "type": "action",
+                "template": "action",
+                "label": "Twitter",
+                "url": "https://twitter.com/",
+                "new_window": true
+            },
+            {
+                "type": "action",
+                "template": "action",
+                "label": "Instagram",
+                "url": "https://www.instagram.com/",
+                "new_window": true
+            },
+            {
+                "type": "action",
+                "template": "action",
+                "label": "GitHub",
+                "url": "https://github.com/",
+                "new_window": true
+            },
+            {
+                "type": "action",
+                "template": "action",
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/",
+                "new_window": true
+            },
+            {
+                "type": "action",
+                "template": "action",
+                "label": "DEV",
+                "url": "https://dev.to/",
+                "new_window": true
+            }
+        ]
+    }
+}
